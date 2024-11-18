@@ -1,5 +1,55 @@
+/* Reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* corpo pagina */
+body{
+    background-color: orangered;
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    padding: 10px 50px 50px 50px;
+}
+/* Items 1 riga */
+
+.items-triangle{
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        line-height: 0px;
+        border-top: 5px solid black;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+}
+
+.items-task{
+    font-weight: bold;
+}
+
+.items-text{
+    display: inline;
+}
+
+.items-check{
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.items-bottom{
+    color: white;
+    background-color: rgb(9 169 237);
+    border-radius: 30px;
+    padding: 5px;
 }
